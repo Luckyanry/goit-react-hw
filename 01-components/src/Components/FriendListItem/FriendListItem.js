@@ -1,14 +1,14 @@
 import React from "react";
-import { Status } from "./FriendListItem.styled";
+import { Status, Item, Img, Name } from "./FriendListItem.styled";
 import PropTypes from "prop-types";
 
 const FriendListItem = ({ avatar, name, isOnline }) => {
   return (
-    <li className="item">
+    <Item>
       <Status isOnline={isOnline}></Status>
-      <img className="avatar" src={avatar} alt={name} width="48" />
-      <p className="name">{name}</p>
-    </li>
+      <Img src={avatar} alt={name} width="48" />
+      <Name>{name}</Name>
+    </Item>
   );
 };
 

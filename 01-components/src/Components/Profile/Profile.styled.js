@@ -4,10 +4,10 @@ const Container = styled.div`
   width: 250px;
   height: max-content;
   border-radius: 4px;
-  background-color: rgb(255, 255, 255);
+  background-color: #ffffff;
   box-shadow: 2px 2px 5px 0px rgba(191, 205, 222, 0.75);
   text-align: center;
-  margin: 0 auto;
+  margin: 0 auto 30px;
 `;
 
 const Desc = styled.div`
